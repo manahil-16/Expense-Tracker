@@ -1,7 +1,12 @@
 # 💸 Personal Expense Tracker (Mobile App)
 
 A clean, professional, and fully functional personal expense tracking mobile application built using React Native and Expo. Designed to help users log, manage, and monitor their daily expenses with ease. 
-The app features a modern dashboard with live statistics, monthly budget control, category-based expense tracking, and real-time validation — all in a single-screen experience optimized for Android devices.
+The app features a modern dashboard with live statistics, monthly budget control, category based expense tracking, and real time validation all in a single screen experience optimized for Android devices.
+
+---
+📹 Demo
+
+[Watch Demo Video]( https://drive.google.com/file/d/13I-32GhF-q3SBp6DunyKWhVW_mrlXZ2A/view?usp=sharing )
 
 ---
 
@@ -9,7 +14,7 @@ The app features a modern dashboard with live statistics, monthly budget control
 
 | Feature | Details |
 |---|---|
-| 📊 Dashboard Cards | Live stats — Total Spent, Remaining Budget, Transactions, Highest Expense |
+| 📊 Dashboard Cards | Live stats Total Spent, Remaining Budget, Transactions, Highest Expense |
 | 💰 Budget Control | Set a monthly budget with a live progress bar |
 | ⚠️ Over Budget Alert | Card turns red and shows warning when budget is exceeded |
 | ➕ Add Expense | Title, Amount (PKR), and Category inputs |
@@ -27,7 +32,7 @@ The app features a modern dashboard with live statistics, monthly budget control
 |---|---|
 | React Native | Mobile UI framework |
 | Expo SDK 54 | Development platform |
-| Expo Router | File-based navigation |
+| Expo Router | File based navigation |
 | @react-native-picker/picker | Category dropdown |
 
 ---
@@ -42,7 +47,7 @@ The app features a modern dashboard with live statistics, monthly budget control
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/expense-tracker.git
+git clone https://github.com/manahil-16/expense-tracker.git
 
 # 2. Navigate to project folder
 cd expense-tracker/ExpenseTracker
