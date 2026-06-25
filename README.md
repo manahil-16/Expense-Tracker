@@ -1,50 +1,74 @@
-# Welcome to your Expo app 👋
+# 💸 Personal Expense Tracker (Mobile App)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A clean, professional, and fully functional personal expense tracking mobile application built using React Native and Expo. Designed to help users log, manage, and monitor their daily expenses with ease. 
+The app features a modern dashboard with live statistics, monthly budget control, category-based expense tracking, and real-time validation — all in a single-screen experience optimized for Android devices.
 
-## Get started
+---
 
-1. Install dependencies
+## ✨ Features Implemented
 
-   ```bash
-   npm install
-   ```
+| Feature | Details |
+|---|---|
+| 📊 Dashboard Cards | Live stats — Total Spent, Remaining Budget, Transactions, Highest Expense |
+| 💰 Budget Control | Set a monthly budget with a live progress bar |
+| ⚠️ Over Budget Alert | Card turns red and shows warning when budget is exceeded |
+| ➕ Add Expense | Title, Amount (PKR), and Category inputs |
+| ✅ Validation | Real-time red error messages for empty/invalid inputs |
+| 📋 Expense List | Scrollable list showing title, PKR formatted amount, category badge |
+| 🗑️ Delete | Remove any expense instantly |
+| 💡 Live Total | Updates automatically on every add and delete |
+| 🎨 Color-coded Categories | Each category has a distinct color badge |
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 🛠️ Tech Stack & Dependencies
 
-In the output, you'll find options to open the app in a
+| Package | Purpose |
+|---|---|
+| React Native | Mobile UI framework |
+| Expo SDK 54 | Development platform |
+| Expo Router | File-based navigation |
+| @react-native-picker/picker | Category dropdown |
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🚀 Instructions to Run the Application
 
-## Get a fresh project
+### Prerequisites
+- Node.js installed on your machine
+- Expo Go app installed on your Android device
 
-When you're ready, run:
+### Installation & Run
 
 ```bash
-npm run reset-project
+# 1. Clone the repository
+git clone https://github.com/YOUR_USERNAME/expense-tracker.git
+
+# 2. Navigate to project folder
+cd expense-tracker/ExpenseTracker
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
+npx expo start
+
+# 5. Scan the QR code with Expo Go on your Android device
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 📁 Project Structure
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```
+ExpenseTracker/
+├── app/
+│   ├── index.tsx          # Main screen — dashboard + stats
+│   └── _layout.tsx        # Root layout
+├── components/
+│   ├── ExpenseForm.js     # Add expense form with validation
+│   ├── ExpenseItem.js     # Single expense list item
+│   └── ExpenseList.js     # Scrollable expense list
+├── README.md
+└── package.json
+```
