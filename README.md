@@ -1,32 +1,32 @@
-# 💸 Personal Expense Tracker (Mobile App)
+# Personal Expense Tracker (Mobile App)
 
 A clean, professional, and fully functional personal expense tracking mobile application built using React Native and Expo. Designed to help users log, manage, and monitor their daily expenses with ease. 
 The app features a modern dashboard with live statistics, monthly budget control, category based expense tracking, and real time validation all in a single screen experience optimized for Android devices.
 
 ---
-📹 Demo
+ Demo
 
 [Watch Demo Video]( https://drive.google.com/file/d/13I-32GhF-q3SBp6DunyKWhVW_mrlXZ2A/view?usp=sharing )
 
 ---
 
-## ✨ Features Implemented
+## Features Implemented
 
 | Feature | Details |
 |---|---|
-| 📊 Dashboard Cards | Live stats Total Spent, Remaining Budget, Transactions, Highest Expense |
-| 💰 Budget Control | Set a monthly budget with a live progress bar |
-| ⚠️ Over Budget Alert | Card turns red and shows warning when budget is exceeded |
-| ➕ Add Expense | Title, Amount (PKR), and Category inputs |
-| ✅ Validation | Real-time red error messages for empty/invalid inputs |
-| 📋 Expense List | Scrollable list showing title, PKR formatted amount, category badge |
-| 🗑️ Delete | Remove any expense instantly |
-| 💡 Live Total | Updates automatically on every add and delete |
-| 🎨 Color-coded Categories | Each category has a distinct color badge |
+|  Dashboard Cards | Live stats Total Spent, Remaining Budget, Transactions, Highest Expense |
+|  Budget Control | Set a monthly budget with a live progress bar |
+|  Over Budget Alert | Card turns red and shows warning when budget is exceeded |
+|  Add Expense | Title, Amount (PKR), and Category inputs |
+|  Validation | Real-time red error messages for empty/invalid inputs |
+|  Expense List | Scrollable list showing title, PKR formatted amount, category badge |
+|  Delete | Remove any expense instantly |
+|  Live Total | Updates automatically on every add and delete |
+|  Color-coded Categories | Each category has a distinct color badge |
 
 ---
 
-## 🛠️ Tech Stack & Dependencies
+##  Tech Stack & Dependencies
 
 | Package | Purpose |
 |---|---|
@@ -37,7 +37,7 @@ The app features a modern dashboard with live statistics, monthly budget control
 
 ---
 
-## 🚀 Instructions to Run the Application
+##  Instructions to Run the Application
 
 ### Prerequisites
 - Node.js installed on your machine
@@ -63,7 +63,7 @@ npx expo start
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ExpenseTracker/
